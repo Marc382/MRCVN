@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+section {
+    position: relative;
+    flex-direction: column;
+    background: url(Genesis_1920x1080.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*Home, About & Contact*/
+
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 17px 17px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+div .info {
+    filter: drop-shadow(3px 3px 8px);
+    color: black;
+}
+
+header ul li {
+    display: inline-block;
+    font-size: 20px;
+    filter: drop-shadow(8px 8px 4px);
+}
+
+header .logo :hover {
+    color: darkslateblue;
+    transform: scale(1.5);
+}
+
+header .logo {
+    position: relative;
+    color: darkslateblue;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    filter: drop-shadow(3px 3px 8px);
+}
+
+
+/*Home, About & Contact*/
+
+header .navigation-bar a {
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 3px 15px;
+    border-radius: 4px;
+    background: darkslateblue;
+    margin: 10px;
+    transition: 0.3s;
+    transition-property: transform;
+    text-shadow: 3px 1px 1px darkslateblue;
+}
+
+header .navigation-bar a:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+/*Home, About & Contact*/
+
+header .navigation-bar a:hover {
+    background-color: #fff;
+    color: darkslateblue;
+    font-weight: 900;
+    filter: drop-shadow(8px 8px 4px);
+    text-shadow: 3px 3px 3px white;
+}
+
+.content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.content .info h2 :hover {
+    color: white;
+    transform: scale(1.5);
+}
+
+.content .info h2 span :hover {
+    color: darkslateblue;
+    transform: scale(1.5);
+}
+
+.content .info h2 {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 60px;
+    text-align: center;
+}
+
+.content .info h2 span {
+    color: darkslateblue;
+    letter-spacing: 1px;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 60px;
+    text-align: center;
+}
+
+
+/*Paragraph*/
+
+.content .info p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-weight: 500px;
+    color: #fff;
+}
+
+
+/*Paragraph*/
+
+.content .info-btn {
+    background-color: darkslateblue;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+.content .info-btn:hover {
+    background: #fff;
+    color: darkslateblue;
+    font-weight: 900;
+    transform: scale(1.5);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.icons a {
+    position: relative;
+    color: darkslateblue;
+    font-size: 35px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    transition: 0.3s;
+    transition-property: transform;
+    filter: drop-shadow(8px 8px 4px);
+}
+
+.icons a:not(:last-child) {
+    margin-right: 60px;
+}
+
+.icons a:hover {
+    color: white;
+    transform: scale(1.5);
+}
+
+.footer-content {
+    text-align: center;
+    color: darkslateblue;
+    font-size: 20;
+    font-weight: 400;
+    filter: drop-shadow(8px 8px 4px);
+}
+
+.footer-content a:hover {
+    color: darkslateblue;
+    font-weight: 900;
+    filter: drop-shadow(8px 8px 4px);
+}
+
+#canvas,
+#text {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
